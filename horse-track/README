@@ -1,0 +1,165 @@
+Attaching the tested sample output
+======================================
+Inventory:
+$1,10
+$5,10
+$10 10
+$20,10
+$100,10
+Horses:
+1, That Darn Gray Cat, 5, Won
+2, Fort Utopia, 10, Lost
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+
+1 10
+Horses:
+1, That Darn Gray Cat, 5, Won
+2, Fort Utopia, 10, Lost
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+Inventory:
+$1,10
+$5,10
+$10 10
+$20,10
+$100,10
+Payout: That Darn Gray Cat, $50
+Dispensing:
+$1,0
+$5,0
+$10,1
+$20,2
+$100,0
+1 5
+Horses:
+1, That Darn Gray Cat, 5, Won
+2, Fort Utopia, 10, Lost
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+Inventory:
+$1,10
+$5,10
+$10 9
+$20,8
+$100,10
+Payout: That Darn Gray Cat, $25
+Dispensing:
+$1,0
+$5,1
+$10,0
+$20,1
+$100,0
+
+Invalid Command: 
+e
+Invalid Command: e
+2 5
+No Payout: Fort Utopia
+Inventory:
+$1,10
+$5,9
+$10 9
+$20,7
+$100,10
+Horses:
+1, That Darn Gray Cat, 5, Won
+2, Fort Utopia, 10, Lost
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+r
+Inventory:
+$1,10
+$5,10
+$10 10
+$20,10
+$100,10
+Horses:
+1, That Darn Gray Cat, 5, Won
+2, Fort Utopia, 10, Lost
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+Inventory:
+$1,10
+$5,10
+$10 10
+$20,10
+$100,10
+Horses:
+1, That Darn Gray Cat, 5, Won
+2, Fort Utopia, 10, Lost
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+2 5
+No Payout: Fort Utopia
+Inventory:
+$1,10
+$5,10
+$10 10
+$20,10
+$100,10
+Horses:
+1, That Darn Gray Cat, 5, Won
+2, Fort Utopia, 10, Lost
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+w 2
+Inventory:
+$1,10
+$5,10
+$10 10
+$20,10
+$100,10
+Horses:
+1, That Darn Gray Cat, 5, Lost
+2, Fort Utopia, 10, Won
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+2 5
+Horses:
+1, That Darn Gray Cat, 5, Lost
+2, Fort Utopia, 10, Won
+3, Count Sheep, 9, Lost
+4, Ms Traitour, 4, Lost
+5, Real Princess, 3, Lost
+6, Pa Kettle, 5, Lost
+7, Gin Stinger, 6, Lost
+Inventory:
+$1,10
+$5,10
+$10 10
+$20,10
+$100,10
+Payout: Fort Utopia, $50
+Dispensing:
+$1,0
+$5,0
+$10,1
+$20,2
+$100,0
+q
+Thanks For Playing, Visit Again!

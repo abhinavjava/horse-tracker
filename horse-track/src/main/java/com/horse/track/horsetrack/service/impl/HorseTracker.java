@@ -43,37 +43,33 @@ public class HorseTracker implements Tracker {
 				Integer winnerKey = HorseTrackUtil.getWinner();
 				Integer betNumber = Integer.parseInt(in);
 				Horse winner = (Horse) HorseTrackUtil.getHorses().get(winnerKey);
+				Integer bet = HorseTrackUtil.getBetDetails().getBet();
+				Integer winNum = winner.getNumber();
+				viewHorses();
+				viewInventory();
 				if (winnerKey == betNumber) {
-
-					viewHorses();
-					viewInventory();
-
-					Integer bet = HorseTrackUtil.getBetDetails().getBet();
-					Integer winNum = winner.getNumber();
 
 					StringBuilder sb = new StringBuilder("Payout: " + winner.getName() + ", $" + bet * winNum);
 
-					String result = clearance.clearanceWinnings(bet * winNum);
+					String result = clearance.clearance(bet * winNum);
 
 					if (!result.isEmpty()) {
 						System.out.println(sb.toString());
 						System.out.println(result);
-					} else {
-						// It may not be insufficient funds, but insufficient bills to make the payout
-						System.out.println("Insufficient Funds: " + bet * winNum);
-					}
+					} 
+					
 				} else {
 					// if loser
 					Horse loser = (Horse) HorseTrackUtil.getHorses().get(betNumber);
 					System.out.println("No Payout: " + loser.getName());
-					viewInventory();
-					viewHorses();
+										
 				}
+				
 			} else {
 				System.out.println("Invalid Bet: " + input);
-				viewInventory();
-				viewHorses();
 			}
+			viewHorses();
+			viewInventory();
 		} else {
 			// it doesn't start with a number
 			Integer horseNumber = Integer.parseInt(input.substring(1).trim());
